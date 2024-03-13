@@ -1,0 +1,39 @@
+{
+    "swagger": "2.0",
+    "info": {
+    "version": "1.0.0",
+    "title": "My Fake Store",
+    "description": "My Fake Store Application API",
+    "license": {
+    "name": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+    }
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "tags": [
+    {
+    "name": "Fake Store",
+    "description": "API for Fake Store"
+    }
+    ],
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"],
+    "paths": {
+        "/products": {
+        "get": {
+        "tags": [
+        "Producs"
+        ],
+        "summary": "Get Array of Products",
+        "responses": {
+        "200": {
+        "description": "This service allows you to get a list of Products from the fake store API"
+        }
+        }
+        }
+        }
+        }
+
+    }
